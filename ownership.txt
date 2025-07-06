@@ -1,0 +1,15 @@
+1. Each value in Rust has an owner
+2. There can only be one owner at a time
+3. When the owner goes out of scope, the value will be dropped
+
+Note: the ownner of a value is the variable or a data structure that holds it and is responsible for allocating and freeing the memory used to store the data.
+
+scope
+scope is a range within a program for which an item is valid
+
+Global scope
+accesible throughout the entire program
+
+local scope
+accesible only within particular function or a block of code
+not accesible outside of function or block

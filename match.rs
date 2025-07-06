@@ -1,7 +1,6 @@
 fn main(){
     get_option(3);
 }    
-
 fn get_option(tp:u8){
     match tp{
         1   => {
@@ -14,9 +13,7 @@ fn get_option(tp:u8){
             never_return();
         }
     };
-    
 }
-
 fn never_return()->!{
     panic!()
 }
