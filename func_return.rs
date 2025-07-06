@@ -3,6 +3,6 @@ fn main(){
     let s=sum(x,y);
     println!("s is: {}",s);
 }
-fn sum(a:i32,b:i32)-> i32{
+fn sum(a:i32,b:i32)->32{
     a+b
 }
