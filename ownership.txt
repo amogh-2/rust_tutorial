@@ -13,3 +13,8 @@ accesible throughout the entire program
 local scope
 accesible only within particular function or a block of code
 not accesible outside of function or block
+
+scope eg:
+{   let h="hello"; } Here h is the owner only within the scope i.e the closed curly brackets
+
+other datatypes are stored in stacks since known sizes, strings are stored in heaps since dynamic size
