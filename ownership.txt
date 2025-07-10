@@ -1,3 +1,8 @@
+Ownership prevents memory safety issues:
+    1. Dangling pointers
+    2. Trying to free memory that's already free
+    3. Not freeing memory that should have been free
+About Ownership
 1. Each value in Rust has an owner
 2. There can only be one owner at a time
 3. When the owner goes out of scope, the value will be dropped
