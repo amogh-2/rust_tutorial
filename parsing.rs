@@ -10,6 +10,4 @@ fn main(){
     let y=x.trim().parse::<i32>().expect("Couldn't convert");
 
     println!("The next number is {}",y+1);
-
-
 }

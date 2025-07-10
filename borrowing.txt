@@ -1,3 +1,3 @@
-Borrowing:
+Borrowing & :
 Way of temporarily taking access of data without taking ownership of it
 When borrowing you're taking reference(pointer) to the data, not data itself

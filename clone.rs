@@ -1,10 +1,5 @@
 fn main(){
-    let s= String::from("Hello world");
-    prints(s.clone());
-    println!("{}",s);
-
-}
-
-fn prints(phrase:String){
-    println!("{}",phrase);
+    let x=String::from("Hello");
+    let y=x.clone();
+    println!("{} {}",x,y);
 }
