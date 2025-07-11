@@ -16,4 +16,4 @@ fn calculate_len(word:&str)->usize{
      .filter(|c| !c.is_whitespace())    // c for character, !c is_whitespace() if c isn't whitespace returns true and is filtered in
      .count()   // counts from filtered
 
-}   
+ }    
