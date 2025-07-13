@@ -1,5 +1,6 @@
 fn main(){
     let s1:String=String::from("HELLO ");
     let s2:&str="WORLD";
-    let s:String=s1+s2;    // during concatination the first string should be type string and second should be type string slices
+    let s:String=s1+s2;    // during concatination the first string should be type String and second should be type &str that gives o/p in type String
     println!("{}",s);
+}
