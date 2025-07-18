@@ -1,3 +1,5 @@
 At a given time, you can have either one mutable reference or any number of immutable references
 
 References must always be valid
+
+when done "<anything inside the double semi colons" it's &str to convert it to string do .to_string()
