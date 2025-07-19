@@ -26,23 +26,23 @@ fn main() {
     io::stdin().read_line(&mut final_scale).expect("Error taking input");
     let final_scale=final_scale.trim();
     match final_scale{
-        "C" => {
+        "C"|"c" => {
 
                         match init_scale{
-                            "C"    =>{
+                            "C"|"c"    =>{
 
                                             println!("{} -> {} conversion",init_scale,final_scale);
-                                            thread::sleep(Duration::from_secs(3));
+                                            thread::sleep(Duration::from_secs(2));
                                             println!("The Temp in scale C is: {}",temp);
                             }
-                            "F"    =>{
+                            "F"|"f"    =>{
                                             println!("{} -> {} conversion",init_scale,final_scale);
-                                            thread::sleep(Duration::from_secs(3));
+                                            thread::sleep(Duration::from_secs(2));
                                             println!("The Temp in scale F is: {}",(temp-32.0)*5.0/9.0);
                             }
-                            "K"    =>{
+                            "K"|"k"    =>{
                                             println!("{} -> {} conversion",init_scale,final_scale);
-                                            thread::sleep(Duration::from_secs(3));
+                                            thread::sleep(Duration::from_secs(2));
                                             println!("The Temp in scale K is: {}",temp-273.15);
                             }
                             _     =>{
@@ -50,21 +50,21 @@ fn main() {
                             }  
                         }
         }
-        "F"    =>{
+        "F"|"f"    =>{
                         match init_scale{
-                            "C"    =>{
+                            "C"|"c"    =>{
                                             println!("{} -> {} conversion",init_scale,final_scale);
-                                            thread::sleep(Duration::from_secs(3));
+                                            thread::sleep(Duration::from_secs(2));
                                             println!("The Temp in scale C is: {}",(temp*9.0/5.0)+32.0);
                             }
-                            "F"    =>{
+                            "F"|"f"    =>{
                                             println!("{} -> {} conversion",init_scale,final_scale);
-                                            thread::sleep(Duration::from_secs(3));
+                                            thread::sleep(Duration::from_secs(2));
                                             println!("The Temp in scale F is: {}",temp);
                             }
-                            "K"    =>{
+                            "K"|"k"     =>{
                                             println!("{} -> {} conversion",init_scale,final_scale);
-                                            thread::sleep(Duration::from_secs(3));
+                                            thread::sleep(Duration::from_secs(2));
                                             println!("The Temp in scale K is: {}",(temp-273.15)*9.0/5.0+32.0);
                             }
                             _     =>{
@@ -73,21 +73,21 @@ fn main() {
                         }
 
         }
-        "K"    =>{
+        "K"|"k"     =>{
                         match init_scale{
-                            "C"    =>{
+                            "C"|"c"    =>{
                                            println!("{} -> {} conversion",init_scale,final_scale);
-                                            thread::sleep(Duration::from_secs(3));
+                                            thread::sleep(Duration::from_secs(2));
                                             println!("The Temp in scale C is: {}",temp+273.15);
                             }
-                            "F"    =>{
+                            "F"|"f"    =>{
                                            println!("{} -> {} conversion",init_scale,final_scale);
-                                            thread::sleep(Duration::from_secs(3));
-                                            println!("The Temp in scale F is: {}",(temp-32.0)*5.0/9.0+273.15);
+                                            thread::sleep(Duration::from_secs(2));
+                                            println!("The Temp in scale F is: {}",(temp-22.0)*5.0/9.0+273.15);
                             }
-                            "K"    =>{
+                            "K"|"k"     =>{
                                             println!("{} -> {} conversion",init_scale,final_scale);
-                                            thread::sleep(Duration::from_secs(3));
+                                            thread::sleep(Duration::from_secs(2));
                                             println!("The Temp in scale K is: {}",temp);
                             }
                             _     =>{
@@ -95,6 +95,10 @@ fn main() {
                             }  
                         }
         }
+
+
+
+
         _     =>{
                             println!("Invalid input");
         }  
