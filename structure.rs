@@ -1,8 +1,22 @@
+struct Student{
+    name:String,
+    _email:String,
+    _roll_no:String,
+    attendance:bool,
+}
+
 fn main(){
-    #[derive(Debug)]
-    struct Student{
-        name: String,
+    let student_5: Student = Student{
+        _email:String::from("amoghbhattarai3205@gmail.comp"),
+        name:String::from("Amogh"),
+        _roll_no:String::from("PUR078BCT005"),
+        attendance:true,
+    };
+    if student_5.attendance==true{
+        let s="present".to_string();
+        println!("{:?} is {}",student_5.name,s);    
     }
-    let x= Student{name : "Amogh".into()};
-    println!("{}",x.name);
+    else{
+        println!("{:?} is absent",student_5.name);
+    }
 }
