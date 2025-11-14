@@ -1,0 +1,1 @@
+C:\Users\amogh\Desktop\rust\rust_tutorial\learn_by_projects\network_device_tracker\target\debug\network_device_tracker.exe: C:\Users\amogh\Desktop\rust\rust_tutorial\learn_by_projects\network_device_tracker\src\main.rs
