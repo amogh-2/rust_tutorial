@@ -1,1 +1,0 @@
-searchState.loadedDescShard("guess_game", 0, "")
