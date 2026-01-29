@@ -17,7 +17,7 @@ impl Password{
         else if len>=8{
             1
         }
-        else {
+        else { 0
             -1
         }
     }
