@@ -28,9 +28,9 @@ pub fn parse_packet(line: &str)-> Packet{
 
     Packet{
         source_ip: parts[0].to_string(),
-        destination_ip: parts[2].to_string(),
-        protocol: parse_protocol(parts[3]),
-        port: parts[4].parse().unwrap(),
-        length: parts[5].parse().unwrap(),
+        destination_ip: parts[1].to_string(),
+        protocol: parse_protocol(parts[2]),
+        port: parts[3].parse().unwrap(),
+        length: parts[4].parse().unwrap(),
     } 
 }
