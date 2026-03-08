@@ -1,0 +1,6 @@
+[package]
+name = "firewall_rule"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
