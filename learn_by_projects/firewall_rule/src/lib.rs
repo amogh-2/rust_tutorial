@@ -18,6 +18,7 @@ impl FireWallRule{
             allow,
         }
     }
+    
     fn matches(&self, packet: &Packet)-> bool{
         self.ip == packet.src_ip && self.port == packet.port
     }

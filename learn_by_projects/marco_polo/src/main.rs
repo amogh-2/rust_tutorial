@@ -1,3 +1,5 @@
+// cargo run play --input marco 
+
 use clap::Parser;
 
 #[derive(Parser)]
