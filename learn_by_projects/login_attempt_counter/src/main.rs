@@ -17,6 +17,9 @@ fn main() {
     }
 
     for (user, count) in attempts {
+        if count >2{
+            panic!("{} is fishy",user);
+        }
         println!("{} -> {} attempts", user, count);
     }
 }
