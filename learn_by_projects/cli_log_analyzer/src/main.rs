@@ -54,7 +54,6 @@ fn main() {
         }
     }
 
-    
     println!("\nTotal Lines: {}\n", total_lines);
 
     println!("Log Levels:");

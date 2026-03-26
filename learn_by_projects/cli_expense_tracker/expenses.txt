@@ -1,0 +1,1 @@
+Food|5000|spent on dinner
